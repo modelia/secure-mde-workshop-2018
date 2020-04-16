@@ -1,0 +1,26 @@
+<aside>
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="{{ site.baseurl }}">Home</a></li>
+				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			</li>
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<header>
+	<p><h1>{{ site.title }}<br> 
+        <h1>International Workshop on Security for and by<br>
+	Model-Driven Engineering</h1></p>
+	<br>
+	<br> 
+	<h2>June 25, 2018 in Toulouse, France</h2>
+</header>
+
+
+ 
